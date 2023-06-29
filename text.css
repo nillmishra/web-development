@@ -1,0 +1,56 @@
+.view{
+    color: rgb(92, 92, 92);
+    font-family: arial;
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+p{
+    font-family: arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.video-title{
+    font-family: arial;
+    font-size: 18px;
+    font-weight: bold;
+    width: 280px;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+
+.author{
+    font-family: Arial;
+    font-size: 14px;
+    color: rgb(92, 92, 92);
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.content{
+    font-family: Arial;
+    font-size: 14px;
+    color: rgb(92, 92, 92);
+    margin-top: 0;
+    width: 300px;
+    line-height: 22px;
+}
+.content1{
+    margin-top: 50px;
+    font-size: 14px;
+    background-color: rgb(227, 65, 64);
+    color: white;
+    text-align: center;
+    padding-bottom:15px ;
+    padding-top: 15px;
+    width: 500px;    
+    border-radius: 2px;
+}
+.content2{
+    margin-top: 50px;
+}
+.content3{
+    cursor: pointer;
+}
+.content3:hover{
+    text-decoration: underline;
+}

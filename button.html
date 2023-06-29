@@ -1,0 +1,124 @@
+<style>
+    .subscribe-button {
+        background-color: rgb(200, 0, 0);
+        color: white;
+        border: none;
+        height: 36px;
+        width: 100px;
+        border-radius: 2px;
+        cursor: pointer;
+        font-size: 16px;
+        margin-right: 14px;
+        transition: opacity 0.15s;
+        transition: background-color 1s;
+    }
+
+    .subscribe-button:hover {
+        opacity: 0.7;
+    }
+
+    .subscribe-button:active {
+        opacity: 0.5;
+    }
+
+    .join-button {
+        background-color: white;
+        color: rgb(0, 191, 255);
+        border-color: rgb(0, 191, 255);
+        border-style: solid;
+        border-radius: 3px;
+        padding-bottom: 7px;
+        padding-top: 7px;
+        padding-left: 10px;
+        padding-right: 10px;
+        cursor: pointer;
+        font-size: 16px;
+        margin-right: 14px;
+        transition: background-color 1s, color 1s;
+    }
+    .join-button:hover {
+        background-color: rgb(0, 191, 255);
+        color: white;
+    }
+
+    .join-button:active {
+        opacity: 0.7;
+    }
+
+    .tweet-button {
+        background-color: rgb(0, 191, 255);
+        color: white;
+        border: none;
+        border-radius: 18px;
+        height: 36px;
+        width: 70px;
+        font-weight: bold;
+        cursor: pointer;
+        margin-right: 14px;
+        transition: background-color 1s,
+        color 1s, opacity 0.15s;
+    }
+    .tweet-button:hover{
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+        opacity: 0.7;
+    }
+
+    .tweet-button:active {
+        opacity: 0.5;
+
+    }
+    .add {
+        background-color: rgb(255, 212, 19);
+        color: black;
+        border: none;
+        border-radius: 18px;
+        height: 36px;
+        width: 200px;
+        font-size: 14px;
+        cursor: pointer;
+        transition: background-color 1s;
+
+    }
+
+    .company {
+        background-color: rgb(73, 73, 189);
+        color: white;
+        font-weight: bold;
+        height: 36px;
+        width: 230px;
+        border: none;
+        border-radius: 18px;
+        margin-right: 14px;
+        transition: background-color 1s;
+    }
+
+    .save {
+        background-color: rgb(255, 255, 255);
+        color: rgb(73, 73, 189);
+        border-color: rgb(73, 73, 189);
+        border-radius: 18px;
+        height: 36px;
+        width: 70px;
+        font-weight: bold;
+        border-style: solid;
+        cursor: pointer;
+        transition: background-color 1s;
+
+    }
+</style>
+<!--button is css selector-->
+<!--background color is css property-->
+<!--red color button ids css value-->
+<!--255 is a highest value for color if 3 of them are 255 then it will show white color-->
+<!-- andd at all 0 showws black color-->
+<button class="subscribe-button">SUBSCRIBE</button>
+<button class="join-button">
+    JOIN
+</button>
+<button class="tweet-button">Tweet</button>
+<button class="add">Add to Cart</button>
+<button class="company">Apply on company website</button>
+<button class="save">Save</button>
+<!--hover is kdnow as a pseudo class, it basiiclly add extra style-->
+<!--height or width fix ho jata hai -->
+<!-- height or width ko padding s thik kiya jata hai, jisse hum box model bhi kehte hai ussme text k hisab s khud ko shape kar leta hai  -->
