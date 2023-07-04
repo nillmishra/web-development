@@ -70,9 +70,6 @@
     font-family: Roboto, Arial;
     font-size: 12px;
     font-weight: 500;
-    padding-left: 4px;
-    padding-right: 4px;
-    padding-top: 4px;
-    padding-bottom: 4px;
     border-radius: 2px;
+    padding: 4px;
 }
